@@ -1,4 +1,6 @@
-def test(a = 2, b = 3):
+def test():
+    a = 12
+    b = 15
     print(a,b)
 def test2(a,b,c):
     print(a,b,c)
