@@ -1,9 +1,14 @@
-def test():
-    a = 12
-    b = 15
-    print(a,b)
-def test2(a,b,c):
-    print(a,b,c)
+def def_test(*args):
+    for arg in args:
+        print(arg)
 
-test()
-test2("brah",1,2)
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+
+def_test(1, 'bruh', [1, 2, 3], True)
+
+print(factorial(6))
