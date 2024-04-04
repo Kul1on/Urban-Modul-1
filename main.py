@@ -1,5 +1,5 @@
 
-'''
+
 #Два предыдущих кода
 
 def print_params(a=1, b='bruh', c=True):
@@ -33,10 +33,11 @@ def_test(1, 'bruh', [1, 2, 3], True)
 
 print(factorial(6))
 
+
+#Где я сейчас. Домашняя работа по уроку "Модули и пакеты"
 def print_helloworld(*args):
         print("Hello world")
 
-'''
 
 print_helloworld()
 print_helloworld()
