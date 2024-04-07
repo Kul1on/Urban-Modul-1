@@ -38,6 +38,6 @@ print(factorial(6))
 import functions
 
 functions.print_helloworld()
-functions.print_helloworld()
+functions.print_helloworld2()
 
 
