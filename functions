@@ -1,0 +1,4 @@
+def print_helloworld(*args):
+        print("Hello world")
+print_helloworld()
+print_helloworld()
