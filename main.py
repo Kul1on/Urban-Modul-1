@@ -35,10 +35,9 @@ print(factorial(6))
 
 
 #Где я сейчас. Домашняя работа по уроку "Модули и пакеты"
-def print_helloworld(*args):
-        print("Hello world")
+import functions
 
+functions.print_helloworld()
+functions.print_helloworld()
 
-print_helloworld()
-print_helloworld()
 
