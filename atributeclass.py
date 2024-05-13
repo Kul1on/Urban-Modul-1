@@ -6,5 +6,6 @@ class Building:
 
 for x in range(40):
     building = Building()
+    print(building)
 
 print("Общее количество объектов:", Building.total)
