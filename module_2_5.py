@@ -1,5 +1,5 @@
 def get_matrix(n, m, value):
-    matrix = []  # Initialize an empty list to store rows
+    matrix = []  
     
     for _ in range(n):  
         row = []  
